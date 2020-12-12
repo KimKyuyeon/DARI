@@ -1,0 +1,107 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cam"
+    tools:context="com.google.ar.core.examples.java.helloar.MainActivity">
+
+  <android.opengl.GLSurfaceView
+      android:id="@+id/surfaceview"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_gravity="top"/>
+
+
+  <ImageButton
+    android:id="@+id/delete_button"
+    android:layout_width="38dp"
+    android:layout_height="38dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_margin="25dp"
+    android:adjustViewBounds="true"
+    android:background="@color/transparent"
+    android:scaleType="fitCenter"
+    android:src="@drawable/delete_icon"
+    android:onClick="deleteMethod"/>
+  <ImageButton
+      android:id="@+id/plane_check_button"
+      android:layout_width="38dp"
+      android:layout_height="38dp"
+
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="25dp"
+      android:adjustViewBounds="true"
+      android:background="@color/transparent"
+      android:scaleType="fitCenter"
+      android:src="@drawable/menu_plane_check"
+      android:onClick="plane_check_Method"
+      android:layout_toRightOf="@+id/delete_button"
+      />
+
+  <ImageButton
+      android:id="@+id/cap_button"
+      android:layout_width="38dp"
+      android:layout_height="38dp"
+      android:layout_toLeftOf="@+id/settings_button"
+      android:layout_marginTop="25dp"
+      android:adjustViewBounds="true"
+      android:background="@color/transparent"
+      android:onClick="captureMethod"
+      android:scaleType="fitCenter"
+      android:src="@drawable/capture_icon" />
+
+  <ImageButton
+      android:id="@+id/settings_button"
+      android:layout_width="38dp"
+      android:layout_height="38dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_margin="25dp"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_settings"
+      tools:ignore="RtlCompat" />
+
+
+  <SlidingDrawer
+      android:id="@+id/slide"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="3dp"
+      android:layout_marginTop="-16dp"
+      android:allowSingleTap="true"
+      android:animateOnClick="true"
+      android:bottomOffset="-30dp"
+      android:content="@+id/content"
+      android:handle="@+id/handle"
+      android:orientation="vertical"
+      android:topOffset="40dp"
+      tools:ignore="RtlCompat">
+
+    <ImageButton
+        android:id="@+id/handle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25dp"
+        android:adjustViewBounds="true"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/home_button" />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_box"
+        android:orientation="vertical">
+
+      <include layout="@layout/activity_home" />
+    </LinearLayout>
+  </SlidingDrawer>
+
+</RelativeLayout>

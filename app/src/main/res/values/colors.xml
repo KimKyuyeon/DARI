@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AF957B</color>
+    <color name="colorPrimaryDark">#AF957B</color>
+    <color name="colorAccent">#AF957B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_transparent">#54FFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+
+
+    <color name="beige">#AF957B</color>
+    <color name="darkbrown">#4E3627</color>
+    <color name="brown">#F3604636</color>
+    <color name="browntransparent">#6B715645</color>
+    <color name="camel">#87644F</color>
+    <color name="lightblue">#88B4FF</color>
+</resources>
