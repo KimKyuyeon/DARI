@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.ar.sceneform.plugin'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+        applicationId "com.google.ar.core.examples.java.helloar"
+
+        // AR Optional apps must declare minSdkVersion >= 14.
+        // AR Required apps must declare minSdkVersion >= 24.
+        minSdkVersion 26
+        targetSdkVersion 29
+        versionCode 1
+        versionName '1.0'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+    dependencies {
+        implementation 'com.github.bumptech.glide:glide:4.11.0'
+        // Glide v4 uses this new annotation processor -- see https://bumptech.github.io/glide/doc/generatedapi.html
+        annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    }
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // ARCore (Google Play Services for AR) library.
+    implementation 'com.google.ar:core:1.19.0'
+
+    // Obj - a simple Wavefront OBJ file loader
+    // https://github.com/javagl/Obj
+    implementation 'de.javagl:obj:0.2.1'
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'com.google.firebase:firebase-storage:19.2.0'
+    implementation 'com.google.firebase:firebase-auth:19.4.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.android.support:design:29.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:25.12.0')
+
+    // Declare the dependency for the Firebase Authentication library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-auth'
+    compile 'com.google.firebase:firebase-core:4.0.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'jp.wasabeef:glide-transformations:4.0.0'
+    // 프로필이미지 둥글게
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    implementation 'com.google.firebase:firebase-firestore:21.7.0'
+    implementation 'com.google.firebase:firebase-database:19.5.0'
+    implementation 'com.firebaseui:firebase-ui-storage:6.2.0'
+}

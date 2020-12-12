@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="dar123/app" />
+      <module fileurl="file://$PROJECT_DIR$/dar123.iml" filepath="$PROJECT_DIR$/dar123.iml" group="dar123" />
+    </modules>
+  </component>
+</project>
