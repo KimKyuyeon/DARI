@@ -2,4 +2,21 @@
 
 # DARI Demo Video
 
-[![Watch the video](https://user-images.githubusercontent.com/64020092/99770311-fc930580-2b4a-11eb-9efe-bf692e6541bb.jpeg)](https://www.youtube.com/watch?v=aSmuxdxUXjU&feature=youtu.be)
+[![Watch the video](https://user-images.githubusercontent.com/64020092/99770311-fc930580-2b4a-11eb-9efe-bf692e6541bb.jpeg)](https://www.youtube.com/watch?v=qpOKgAsk5Tw&feature=youtu.be)
+
+# Developer
+Kim Dong-Jae
+@naver.com
+Gachon Univ
+
+Bae Tae-Won
+gerrard1283@naver.com
+Gachon Univ
+
+Kim Kyu-Yeon
+sally6251@naver.com
+Gachon Univ
+
+Song Yu-Jin
+@naver.com
+Gachon Univ
