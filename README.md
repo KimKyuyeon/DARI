@@ -6,7 +6,7 @@
 
 # Developer
 Kim Dong-Jae
-@naver.com
+kdjm1ru@naver.com
 Gachon Univ
 
 Bae Tae-Won
@@ -18,5 +18,5 @@ sally6251@naver.com
 Gachon Univ
 
 Song Yu-Jin
-@naver.com
+j_jongleur@naver.com
 Gachon Univ
