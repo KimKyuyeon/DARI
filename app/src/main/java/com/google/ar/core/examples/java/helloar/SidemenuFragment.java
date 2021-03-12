@@ -18,6 +18,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -201,11 +202,25 @@ public class SidemenuFragment extends Fragment {
         // Wishlist
         adapter.addItem(ContextCompat.getDrawable(v.getContext(), R.drawable.menu_like2), "Wishlist") ;
         // Share
-        adapter.addItem(ContextCompat.getDrawable(v.getContext(), R.drawable.menu_share2), "Share") ;
+        adapter.addItem(ContextCompat.getDrawable(v.getContext(), R.drawable.menu_share2), "Community") ;
         // Share
         adapter.addItem(ContextCompat.getDrawable(v.getContext(), R.drawable.menu_setting2), "Setting") ;
         // Share
         adapter.addItem(ContextCompat.getDrawable(v.getContext(), R.drawable.menu_logout2), "Logout") ;
+
+        listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                if(position == 2)
+                {
+                    FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                    FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                    fragmentTransaction.replace(R.id.fragment_place, new CommunityFragment());
+                    fragmentTransaction.commit();
+                }
+            }
+        });
 
         return v;
     }
