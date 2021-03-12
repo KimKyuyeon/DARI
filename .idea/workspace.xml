@@ -24,9 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d610d637-80c4-456e-952b-7ded66dcbb40" name="Default Changelist" comment="+community">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d610d637-80c4-456e-952b-7ded66dcbb40" name="Default Changelist" comment="+community" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615534180682</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="+community">
+      <created>1615534814593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615534814593</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,10 +214,14 @@
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="618" y="381" width="475" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1707.1027@0.0.1707.1027" timestamp="1615304248553" />
-    <state x="731" y="411" key="Github.ShareDialog" timestamp="1615534471192">
+    <state x="164" y="86" key="DiffContextDialog" timestamp="1615534830267">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="731" y="411" key="Github.ShareDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1615534471192" />
+    <state x="164" y="86" key="DiffContextDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1615534830267" />
+    <state x="731" y="411" key="Github.ShareDialog" timestamp="1615535063462">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="731" y="411" key="Github.ShareDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1615535063462" />
     <state width="1662" height="277" key="GridCell.Tab.0.bottom" timestamp="1615382650347">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
@@ -233,14 +242,18 @@
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="355" y="158" key="SettingsEditor/0.0.1707.1027@0.0.1707.1027" timestamp="1615533998389" />
-    <state x="446" y="247" key="Vcs.Push.Dialog.v2" timestamp="1615534739377">
+    <state x="446" y="247" key="Vcs.Push.Dialog.v2" timestamp="1615535101413">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="446" y="247" key="Vcs.Push.Dialog.v2/0.0.1707.1027@0.0.1707.1027" timestamp="1615534739377" />
+    <state x="446" y="247" key="Vcs.Push.Dialog.v2/0.0.1707.1027@0.0.1707.1027" timestamp="1615535101413" />
     <state x="987" y="111" width="589" height="804" key="find.popup" timestamp="1615383633155">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="987" y="111" width="589" height="804" key="find.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1615383633155" />
+    <state x="652" y="403" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1615534971837">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="652" y="403" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1615534971837" />
     <state x="943" y="222" width="672" height="678" key="search.everywhere.popup" timestamp="1615534428422">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
