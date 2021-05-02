@@ -14,6 +14,11 @@ Using ARCore's Depth API among Google APIs, you can determine which object is cl
 
 [![Watch the video](https://user-images.githubusercontent.com/64020092/99770311-fc930580-2b4a-11eb-9efe-bf692e6541bb.jpeg)](https://www.youtube.com/watch?v=qpOKgAsk5Tw&feature=youtu.be)
 
+# Experiment Environment
+
+Device: Galaxy A80
+Install 
+
 # Developer
 Kim Dong-Jae
 kdjm1ru@naver.com
