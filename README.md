@@ -4,7 +4,11 @@ DARI stands for Depth Augmented Reality Interior. It is conducted by Android Stu
 
 # Key Features
 
-Using ARCore's Depth API among Google APIs, you can determine which object is closer to the AR screen and use it to decorate virtual interiors that are more realistic and three-dimensional than existing AR applications. You can place/delete/rotate/move object or place multiple objects.
+Using ARCore's Depth API among Google APIs, you can determine which object is closer to the AR screen and use it to decorate virtual interiors that are more realistic and three-dimensional than existing AR applications. 
+
+- Can place/delete/rotate/move object or place multiple objects.
+- Login/Logout
+- Share the experience through community
 
 # DARI Demo Video
 
