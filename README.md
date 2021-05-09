@@ -51,3 +51,7 @@ Gachon Univ
 Song Yu-Jin
 j_jongleur@naver.com
 Gachon Univ
+
+# API
+
+https://github.com/KimKyuyeon/AR_Object_placment
