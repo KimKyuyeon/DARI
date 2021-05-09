@@ -2,7 +2,7 @@
 
 DARI stands for Depth Augmented Reality Interior. It is conducted by Android Studio with the language, Java. 
 
-# Key Features
+# Key Functions
 
 Using ARCore's Depth API among Google APIs, you can determine which object is closer to the AR screen and use it to decorate virtual interiors that are more realistic and three-dimensional than existing AR applications. 
 
