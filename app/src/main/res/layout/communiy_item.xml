@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginTop="35dp"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/comment_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+        <TextView
+            android:id="@+id/comment_id"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:fontFamily="@font/gmarketsansmedium"
+            android:gravity="center_vertical"
+            android:text="New Text"
+            android:textColor="@color/beige"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="New Text"
+            android:id="@+id/comment_title"
+            android:textSize="14dp"
+            android:textColor="@color/beige"
+            android:gravity="center_vertical"
+            android:layout_weight="2"
+            android:fontFamily="@font/gmarketsansmedium"/>
+    </LinearLayout>
+
+</LinearLayout>
