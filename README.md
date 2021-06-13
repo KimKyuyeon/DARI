@@ -55,3 +55,7 @@ Gachon Univ
 # API
 
 https://github.com/KimKyuyeon/AR_Object_placment
+
+# PPT link
+
+https://drive.google.com/file/d/1bZbGP4j17oFiM-hbjCbbTrQTFIt1Tp-H/view?usp=sharing
