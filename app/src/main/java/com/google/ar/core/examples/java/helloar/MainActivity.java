@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity implements GLSurfaceView.Ren
         }
     }
 
-    //추가변수
+    //추가변수1
     public static RotationGestureDetector mRotationDetector;
     public static MyScaleGestures scaleGestureDetector;
     public static MotionEvent motionEvent;
