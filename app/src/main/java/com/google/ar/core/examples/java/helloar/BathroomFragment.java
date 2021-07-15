@@ -93,7 +93,7 @@ public class BathroomFragment extends Fragment {
                 if (cnt == 0) {
                     obj_file = "models/chair1.obj";
                     png_file = "models/table_texture5.png";
-//                    cnt = cnt + 1;
+////                    cnt = cnt + 1;
                     isObjectReplaced = true;
                 }
 
