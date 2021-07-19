@@ -101,7 +101,7 @@ public class BedroomFragment extends Fragment {
                 if (cnt == 0) {
                     obj_file = "models/storage2.obj";
                     png_file = "models/table_texture5.png";
-//                    cnt = cnt + 1;
+////                    cnt = cnt + 1;
                     isObjectReplaced = true;
                 }
 
