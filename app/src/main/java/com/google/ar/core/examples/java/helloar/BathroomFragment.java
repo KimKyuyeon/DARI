@@ -73,7 +73,7 @@ public class BathroomFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        // Inflate the layout for this fragment1
         ViewGroup v = (ViewGroup) inflater.inflate(R.layout.fragment_bathroom, container, false);
         back_button_BathRoom = (ImageButton)v.findViewById(R.id.back_button4);
         back_button_BathRoom.setOnClickListener(new View.OnClickListener(){
