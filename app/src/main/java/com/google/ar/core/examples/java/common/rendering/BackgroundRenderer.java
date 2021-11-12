@@ -35,7 +35,7 @@ import javax.microedition.khronos.opengles.GL10;
 public class BackgroundRenderer {
   private static final String TAG = BackgroundRenderer.class.getSimpleName();
 
-  // Shader names...
+  // Shader names....
   private static final String CAMERA_VERTEX_SHADER_NAME = "shaders/screenquad.vert";
   private static final String CAMERA_FRAGMENT_SHADER_NAME = "shaders/screenquad.frag";
   private static final String DEPTH_VISUALIZER_VERTEX_SHADER_NAME =
