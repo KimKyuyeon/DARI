@@ -14,7 +14,13 @@ Using ARCore's Depth API among Google APIs, you can determine which object is cl
 
 [![Watch the video](https://user-images.githubusercontent.com/64020092/99770311-fc930580-2b4a-11eb-9efe-bf692e6541bb.jpeg)](https://www.youtube.com/watch?v=qpOKgAsk5Tw&feature=youtu.be)
 
-# Experiment Environment
+# 개발 환경
+## 개발 환경
+
+- 언어 : swift
+- xcode 14 이상에서 빌드 가능
+- Deployment Target  iOS15
+- client id : af_mobilelab_dev_e0f147f6c034776add2142b425e81777
 
 Device: Galaxy A80
 
